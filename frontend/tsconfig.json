@@ -11,7 +11,11 @@
       "path": "./tsconfig.app.json"
     },
     {
-      "path": "./tsconfig.spec.json"
+      "path": "./tsconfig.base.json"
     }
-]
+  ],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true
+  }
 }
